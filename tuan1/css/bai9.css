@@ -1,0 +1,31 @@
+#bai9 table, tr, td{
+    border: 1px solid rgb(197, 180, 180);
+}
+#bai9{
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px black;
+    background-color: rgb(245, 226, 144);
+    margin: 0px auto;
+    
+    
+}
+.table{
+    width: 400px;
+    position: relative;
+}
+#bang{
+    background-color: rgb(26, 235, 235);
+}
+#bai9_{
+    text-align: center;
+    box-shadow: 0px 0px 10px 1px;
+    background-color: rgb(245, 226, 144);
+    width: 400px;
+    position: relative;
+    margin: 0px auto;
+    margin-top: 15px;
+   
+    
+      
+    
+}
