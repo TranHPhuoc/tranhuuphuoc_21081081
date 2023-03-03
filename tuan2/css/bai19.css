@@ -1,0 +1,11 @@
+#video{
+    background-color: white;
+    box-shadow: 0 0 10px 1px black;
+    width: 210px;
+}   
+.vd{
+    width: 200px;
+}
+.items1{
+    margin-left: 5px;
+}

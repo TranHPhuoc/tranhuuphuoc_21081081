@@ -1,0 +1,11 @@
+#bai11{
+    position: relative;
+    width: 500px;
+    background: #fff;
+    box-shadow: 0 0 15px 1px rgb(124, 113, 113);
+    height: 480px;
+    margin: auto;
+}
+#mota{
+    margin-left: 17px;
+}

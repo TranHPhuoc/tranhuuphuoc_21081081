@@ -1,0 +1,47 @@
+#bai17_a{
+    background-color: rgb(238, 195, 114);
+    box-shadow: 0 0 10px 1px black;
+    margin: 0px auto;
+    position: relative;
+    width: 700px;
+}
+h2{
+    text-align: center;
+}
+.sbmit{
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px
+    
+}
+.sbmit1{
+    margin-left: 50px;
+}
+.sbmit2{
+    margin-right: 10px;
+}
+.noidung{
+    margin-left: 10px;
+}
+.form1{
+    width: 280px;
+}
+#bai17_b{
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgb(182, 177, 177);
+    margin-top: 30px;
+    position: relative;
+    width: 500px;
+    margin: 0px auto;
+    height: 655px;
+}
+label{
+    margin-left: 10px;
+
+}
+#formm{
+    margin-left: 10px;
+}
+
+
+

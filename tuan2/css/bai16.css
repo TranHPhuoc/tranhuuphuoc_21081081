@@ -1,0 +1,13 @@
+.bai16{
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgb(172, 163, 163);
+    position: relative;
+    width: 350px;
+    margin: 0px auto;
+}
+.text{
+    margin-left: 10px;
+}
+#inp{
+    margin-bottom: 10px;
+}
