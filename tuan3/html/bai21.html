@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bai21.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bai21</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>
+                <span style="color: rgb(71, 70, 70)">w3school</span>
+                <span style="color: rgb(14, 243, 45)">.com</span>
+            </h1>
+            
+            <p>THE WORLD'S LARGEST WEB DEVELOPER SITE</p>
+        </div>
+        <div id="menu">
+            <ul id="main-menu">
+                <li><a href="">
+                    <i class="fas fa-home-alt"></i>
+                </a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JAVASCRIPT</a></li>
+                <li><a href="">TUTORIALS</a>
+                    <ul class="sub-menu">
+                        <li><a href="">TUTORIALS1</a></li>
+                        <li><a href="">TUTORIALS2</a></li>
+                        <li><a href="">TUTORIALS3</a></li>
+                        <li><a href="">TUTORIALS4</a></li>
+                    </ul>
+                </li>
+                <li><a href="">REFERENCES</a>
+                    <ul class="sub-menu">
+                        <li><a href="">REFERENCE1</a></li>
+                        <li><a href="">REFERENCE2</a></li>
+                        <li><a href="">REFERENCE3</a></li>
+                        <li><a href="">REFERENCE4</a></li>
+                    </ul>
+                </li>
+                <li><a href="">EXAMPLES</a></li>
+                <li><a href="" class="globe">
+                    <i class="fas fa-globe-americas"></i>
+                </a></li>
+                <li><a href="" class="search">
+                    <i class="fas fa-search"></i>
+                </a></li>
+            </ul>
+        </div>
+        <div id="list">
+            <ul id="main-list">
+                <li style="font-size:25px;">HTML Tutorial</li>
+                <li><a href="#">HTML HOME</a></li>
+                <li><a href="#">HTML Introduction</a> </li>
+                <li><a href="#">HTML Basic</a> </li>
+                <li><a href="#">HTML Editors</a> </li>
+                <li><a href="#">HTML Elements</a> </li>
+                <li><a href="#">HTML Attributes</a> </li>
+                <li><a href="#">HTML Headings</a> </li>
+                <li><a href="#">HTML Paragraphs</a> </li>
+                <li><a href="#">HTML Styles</a> </li>
+                <li><a href="#">HTML Formatting</a> </li>
+                <li><a href="#">HTML Quotations</a> </li>
+                <li><a href="#">HTML Computercode</a> </li>
+                <li><a href="#">HTML Comments</a> </li>
+                <li><a href="#">HTML CSS</a> </li>
+                <li><a href="#">HTML Links</a> </li>
+                <li><a href="#">HTML Images</a> </li>
+                <li><a href="#">HTML Tables</a> </li>
+                <li><a href="#">HTML Lists</a> </li>
+                <li><a href="#"> HTML Blocks</a></li>
+            </ul>
+        </div>
+        <div id="noidung">
+            <nav class="container">
+                <img class="img" src="../img/APIs.jpg" alt="">
+                <h1>HTML(5) Tutorial</h1>
+                <span class="start"><a style="color:rgb(53, 194, 53)"href=""><i class="fas fa-angle-double-left"></i> W3School Home</a></span>
+                <span  class="end"><a style="color:rgb(53, 194, 53)" href="">Next chapter <i class="fas fa-angle-double-right"></i></a></span>
+            </nav>
+            <nav class="container1">
+                <img class="iamge" src="../img/html5.jpg" alt="">
+                <span class="nd">With HTML you can create yout own Web site. <br> <br>
+                    This tutorial teaches you everything about HTML. <br> <br>
+                    HTML is easy to learn - You will enjoy it. 
+                </span> <br>
+                <hr>
+            </nav>
+            <nav id="footer">
+                <b>Examples in Every Chapter</b><br>
+                <span>This HTML tutorial contains hundreds of HTML examples.</span>
+            </nav>
+            
+
+
+        </div>
+        
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sub-menu').parent('li').addClass('has-child');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+#header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}   
+p{
+    letter-spacing: 3px;
+}
+#wrapper{
+    box-shadow: 0 0 10px 1px black;
+    
+    max-width: 1060px;
+    max-height: 725px;
+    margin: 10px auto;
+}
+#main-menu{
+    display: flex;
+    background: rgb(94, 92, 92);
+    margin-top: 10px;
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu li a{
+    color: white;
+    display: block;
+    padding: 15px 28px;
+    font-size: 18px;
+}
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: rgb(94, 92, 92);
+    color: white;
+    padding: 5px 0;
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+#main-menu li:hover ul.sub-menu{
+    display: block;
+}
+#main-menu ul.sub-menu li:hover a{
+    background-color: rgba(108, 255, 71, 0.5);
+    transition: all 0.3s;
+    
+}
+#main-menu>li>a{
+    position: relative;
+}
+#main-menu>li>a:before{
+    content:""; 
+    height: 51px;
+    width: 100%;
+    background:rgba(108, 255, 71, 0.5) ;
+    transition: all 0.3s;
+    position: absolute;
+    bottom: 0px;
+    display: none;
+    left: 0px;
+}
+#main-menu>li:hover>a:before{
+    display: block;
+}
+#main-menu>li.has-child:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content:"\f0d7";
+    color: #f5f5f5;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    padding: 14px 10px;
+    cursor: pointer;
+}
+#list{
+    max-width: 280px;
+    background-color: rgb(223, 221, 218);
+    max-height: 700px;
+    position: relative;
+}
+#list ul li{
+    padding: 5px;
+}
+#main-list li a{
+    color: black;
+}
+#main-list{
+    padding: 15px 10px;
+    margin-left: 50px;
+}
+#main-list li:hover a {
+    text-shadow: 0px 0px 1px  rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.container{
+    float: right;
+    margin-top: -600px;
+}
+.img{
+    width: 700px;
+    margin-right: 38px;
+    margin-top: 20px;
+}
+.container h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.container .start, .end a {
+    font-size: 22px;
+    line-height: 40px;
+    
+}
+.start a {
+    margin-left: 5px;
+}
+.end a{
+    margin-left: 370px;
+}
+.iamge{
+    float: right;
+    margin-top: -350px;
+    margin-right: 585px;
+    width: 150px;
+}
+
+.nd{
+    float: right;
+    margin-top: -340px;
+    font-size: 19px;
+    margin-right: 180px;
+}
+hr{
+    width: 720px;
+    margin-right: 30px;
+    float: right;
+    margin-top: -170px;
+}
+#footer{
+    float: right;
+    margin-top: -150px;
+    margin-right: 200px;
+}
+#footer b{
+    font-size: 45px;
+}
+#footer span{
+    font-size: 20px;
+    line-height: 50px;
+}
+
